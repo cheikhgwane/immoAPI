@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: "immoAPI"
+  datasource:
+    driver-class-name: "com.mysql.jdbc.Driver"
+    url: "jdbc:mysql://localhost:3030/immo?useUnicode=true&characterEncoding=utf8&createDatabaseIfNotExist=true"
+    username: immoUser
+    password: passer123
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+
+server:
+  port: 9000
